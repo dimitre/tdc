@@ -1,0 +1,3 @@
+float	noiseA	0 1 .5
+float	noiseTempo	0 1 .5
+float	mult	0 3 .5

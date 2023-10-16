@@ -1,0 +1,9 @@
+label	VENTO
+float	minVel	0 .1 .1
+float	maxVel	0 .1 .5
+float	minTime	1 20 10
+float	maxTime	1 20 10
+bool	oeste	0
+float	max	0 10 .7
+float	easing	2 100 20
+float	easing2	2 200 80

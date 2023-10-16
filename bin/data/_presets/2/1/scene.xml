@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ofxMicroUI>1</ofxMicroUI>
+<element>
+	<float>
+		<mult>0.490909</mult>
+		<offset>-0.218182</offset>
+		<a>0.827273</a>
+		<tempo>1</tempo>
+	</float>
+	<boolean />
+	<group />
+	<string />
+	<vec2 />
+</element>

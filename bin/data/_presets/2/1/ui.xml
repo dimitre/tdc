@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ofxMicroUI>1</ofxMicroUI>
+<element>
+	<float>
+		<piso>0.1</piso>
+		<teto>1</teto>
+	</float>
+	<boolean />
+	<group />
+	<string>
+		<scene>seno</scene>
+		<scene2>_</scene2>
+	</string>
+	<vec2 />
+</element>

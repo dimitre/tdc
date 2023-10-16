@@ -1,0 +1,5 @@
+#inputPresetLabel	presetLabel
+scene	scene	_scene
+scene	scene2	_scene
+float	piso	0 .3 .1
+float	teto	.7 1 1

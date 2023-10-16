@@ -1,0 +1,5 @@
+label	SENO
+float	mult	0 4 .5
+float	offset	-3 3 0
+float	a	0 2 .1
+float	tempo	0 10 .3

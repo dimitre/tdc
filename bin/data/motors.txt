@@ -1,0 +1,11 @@
+sliderHeight	12
+labelOnNewElement	0
+floats	m[0-19]	0 1 1
+labelOnNewElement	1
+
+newCol
+bang	alinha
+bang	desalinha
+int	rpm	5 120 30
+radioNoLabel	rpm_shortcut	5 8 10 17 45 90 120
+sliderHeight	16

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ofxMicroUI>1</ofxMicroUI>
+<element>
+	<float>
+		<minVel>0.0173913</minVel>
+		<maxVel>0.0173913</maxVel>
+		<minTime>11.987</minTime>
+		<maxTime>20</maxTime>
+		<max>1.65217</max>
+		<easing>26.713</easing>
+		<easing2>125.965</easing2>
+	</float>
+	<boolean>
+		<oeste>0</oeste>
+	</boolean>
+	<group />
+	<string />
+	<vec2 />
+</element>

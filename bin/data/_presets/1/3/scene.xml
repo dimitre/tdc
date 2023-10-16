@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ofxMicroUI>1</ofxMicroUI>
+<element>
+	<float>
+		<noiseA>0.0545455</noiseA>
+		<noiseTempo>0.572727</noiseTempo>
+		<mult>1.10455</mult>
+		<piso>-0.509091</piso>
+	</float>
+	<boolean />
+	<group />
+	<string />
+	<vec2 />
+</element>

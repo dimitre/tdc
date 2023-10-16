@@ -1,0 +1,2 @@
+float	val	0 1 0
+radioNoLabel	val_shortcut	0 .25 .5 .75 1

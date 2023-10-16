@@ -1,0 +1,13 @@
+==============================
+beginTemplate	noise
+bool	ok$	1
+float	noiseA$	0 1 .5
+#float	noiseTempo$	0 1 .5
+float	noiseTempo$	0 1 .5
+float	mult$	0 3 .5
+#float	mult$	0 30 .5
+float	offset$	-1 1 0
+endTemplate
+==============================
+template	noise	0
+template	noise	1
