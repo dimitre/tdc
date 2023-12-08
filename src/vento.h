@@ -39,7 +39,8 @@ public:
 	void update() {
 		if (ofGetElapsedTimef() > nextCheckApi) {
 			nextCheckApi = ofGetElapsedTimef() + intervalApi;
-			string command ="cd /Volumes/tool/ofw/apps/WerkApps/Timidez01/bin/python/; /opt/homebrew/bin/python3 vento.py"; // + fullPath;
+//			string command ="cd /Volumes/tool/ofw/apps/WerkApps/Timidez01/bin/python/; /opt/homebrew/bin/python3 vento.py"; // + fullPath;
+			string command ="./python3 vento.py"; // + fullPath;
 	//		cout << "update api : " << command << endl;
 			string res = ofSystem(command);
 			try {
