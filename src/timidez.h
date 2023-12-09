@@ -1,5 +1,5 @@
 
-uint8_t motorData[20] = { 0 };
+uint8_t motorData[NMOTORS] = { 0 };
 
 struct motor {
 public:
@@ -56,7 +56,7 @@ void sendMotors() {
 		for (auto & m : motors) {
 			motorData[m.index] = uint8_t(int(255.0 * m.potencia));
 		}
-		serial.writeBytes(motorData, 20);
+		serial.writeBytes(motorData, NMOTORS);
 	}
 //	serial.flush(false, true);
 }
@@ -66,13 +66,13 @@ void exitMotors() {
 		for (auto & m : motors) {
 			motorData[m.index] = 0;
 		}
-		serial.writeBytes(motorData, 20);
+		serial.writeBytes(motorData, NMOTORS);
 	}
 }
 
 
 void setupMotors() {
-	for (int a=0; a<20; a++) {
+	for (int a=0; a<NMOTORS; a++) {
 		motors.emplace_back(motor(a, { 25 + a * 50, 75 }));
 	}
 	ofAddListener(uiM->uiEvent, this, &ofApp::uiEvents);

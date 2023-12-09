@@ -1,3 +1,4 @@
+
 struct ventania {
 public:
 	
@@ -16,8 +17,8 @@ public:
 	};
 
 	vector <vento> ventos;
-	float vals[20]  { 0 };
-	float valsEasy[20]  { 0 };
+	float vals[NMOTORS]  { 0 };
+	float valsEasy[NMOTORS]  { 0 };
 
 	int cursor = 0;
 	float nextJump = 0;
@@ -87,7 +88,7 @@ public:
 		}
 		
 //		float e = uiC->pFloat["easing"];
-		for (int a=0; a<20; a++) {
+		for (int a=0; a<NMOTORS; a++) {
 			float e = 0;
 			if (vals[a] > valsEasy[a]) {
 				e = uiC->pFloat["easing"];
@@ -106,7 +107,7 @@ public:
 
 	void draw() {
 		ofSetColor(255);
-		for (int a=0; a<20; a++) {
+		for (int a=0; a<NMOTORS; a++) {
 			ofDrawRectangle(0, a*10, valsEasy[a] * 220 + 2, 8);
 		}
 	}

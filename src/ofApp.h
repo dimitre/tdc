@@ -29,6 +29,8 @@ class ofApp : public ofBaseApp{
 	ofBuffer buffer;
 	string serialData;
 
+#define NMOTORS 10
+
 	#include "timidez.h"
 	#include "vento.h"
 

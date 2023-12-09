@@ -1,4 +1,4 @@
-sliderWidth	230
+sliderWidth	220
 sliderHeight	16
 elementSpacing	2
 sliderMargin	1
